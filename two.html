@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+    <style>
+        .flex-container {
+            display: flex;
+            /* Flexbox অ্যাক্টিভ */
+            justify-content: space-around;
+            /* আইটেমগুলোর মধ্যে স্পেস বণ্টন */
+            align-items: center;
+            /* উল্লম্বভাবে আইটেম সেন্টারে রাখা */
+            height: 100vh;
+            /* ভিউপোর্টের পূর্ণ উচ্চতা */
+            background-color: #f0f0f0;
+        }
+
+        .flex-item {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+    </div>
+</body>
+
+</html>

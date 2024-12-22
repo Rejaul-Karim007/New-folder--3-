@@ -1,0 +1,121 @@
+
+.container{
+    
+    background-image: url();
+    height: 750px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.navbar_link{
+    display: flex;
+    list-style: none;
+align-items: center;
+}
+.navbar_link li{
+    margin: 20px;
+}
+.navbar_link li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    
+}
+.primary-btn{
+    padding: 10px 20px;
+    background-color: brown;
+    border: none;
+    color: wheat;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.navbar-title{
+    font-size: 45px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+#sub-title{
+    color: brown;
+}
+
+.banner{
+    display: flex;
+    margin: 0 35px 0 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 500px;
+}
+.button_box button {
+    margin: 0 20px 0 0 ;
+}
+
+/* skill */
+
+.skills-section{
+    text-align: center;
+
+}
+.skill-box{
+    display: flex;
+    background-color: yellow;
+    justify-content: space-between;
+    gap: 10px;
+}
+.item01{
+    width: 300px;
+    height: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: goldenrod;
+
+}
+
+.contact-container{
+padding: 50px 200px;
+   display: flex;
+   gap: 40px;
+}
+.info{
+    background-color: green;
+    width: 50%;
+    padding: 20px;
+}
+.message{
+    background-color: rgb(128, 0, 30);
+    width: 50%;
+    padding: 20px;
+}
+.icon-list{
+    display: flex;
+}
+.message form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* footer input [type="text"],
+footer input [type="email"],
+footer textarea{
+    height: 40px;
+    border-radius: 5px;
+    background-color: gold;
+    display: block;
+    width: 80%;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: none;
+} */
